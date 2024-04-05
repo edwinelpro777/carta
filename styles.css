@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #252525;
+  }
+  .card {
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    width: 50%;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .light {
+    background-color: #fff;
+    color: #333;
+  }
+  .dark {
+    background-color: #252557;
+    color: #fff;
+  }
+  .photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .user-photo {
+    width: 200px;
+    border-radius: 50%;
+  }
+  .photo ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+  ul img {
+    width: 40px;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 20px;
+  }
+  .custom-btn {
+    align-self: center;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 100px;
+    padding: 10px 25px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: #413476;
+  }
